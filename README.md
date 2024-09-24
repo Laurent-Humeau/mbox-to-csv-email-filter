@@ -8,7 +8,7 @@ The keywords will need to be hardcoded in the script :
 
 if 'keywords' is left blank, the script will just return all emails.  
 
-Make sure you replace "YOUR NAME" with either your name so it doesn't return your own emails too.  
+Make sure you replace "YOUR NAME" with your actual name so it doesn't return your own emails too.  
 `if sender_email not in unique_senders and sender_name != "YOUR NAME": `
 
 The output is a csv file containing : name, email, subject.  
